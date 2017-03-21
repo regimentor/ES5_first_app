@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgba(112,112,112,0.4);
+}
+ul{
+	position: absolute;
+	width: 1600px;
+	height: 800px;
+	top: 0px;
+	left: 0px;
+}
+ul li{
+	position: relative;;
+	width: 400px;
+	height: 25px;
+	float: left;
+	display: inline-block;
+	border: 1px solid green;
+	background-color: #aaa;
+}
+#game_map{
+	position: absolute;
+	display: block;
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -300px;
+	/*background: #fff;*/
+}
+#player{
+	position: absolute;
+	display: block;
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -300px;
+	cursor: none;
+/*	background: #fff;*/
+}
+span{
+	position: relative;
+	margin-left: 5px;
+	float: left;
+	color: #fff;
+	/* background-color: blue; */
+}
+input{
+	margin-left: 10px;
+	width: 30px;
+}
+#player-stats{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -325px;
+	margin-left: -400px;
+	/*background-color: green;*/
+	color: #fff;
+}
+#wasd{
+	font-size: 10px;
+}
